@@ -1,0 +1,135 @@
+* {
+    color: var(--main-text-color);
+    font-family: var(--font-family);
+}
+
+body {
+    margin: 0px;
+    background-color: var(--main-background-color);
+}
+
+h1 {
+    font-size: 24px;
+}
+
+h2 {
+    font-size: 20px;
+}
+
+p {
+    font-size: 14px;
+}
+
+.row-display {
+    display: flex;
+    flex-direction: row;
+}
+
+.cards-menu {
+    overflow-x: auto;
+    overflow-y: visible;
+    cursor: grab;
+    user-select: none;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.cards-menu:active {
+  cursor: grabbing;
+}
+
+.cards-menu::-webkit-scrollbar {
+  display: none;
+}
+
+.column-display {
+    display: flex;
+    flex-direction: column;
+}
+
+.header-container {
+    border: 1px var(--border-color) solid;
+    border-radius: 0 0 5px 5px;
+}
+
+.header-container, .header-container__nav-links, .header-container__nav-link {
+    background-color: var(--second-background-color);
+}
+
+.header-container__nav-links div {
+    background-color: var(--second-background-color);
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+}
+
+.header-container__nav-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 860px;
+    margin: 0 auto;
+    font-size: 16px;
+}
+
+.header-container__nav-link {
+    text-decoration: none;
+    padding: 16px 0px;
+}
+
+.main-container {
+    max-width: 860px;
+    margin: 0 auto;
+    padding: 3rem 2rem;
+}
+
+.main-container__info-section {
+    background-color: var(--second-background-color);
+    border: 1px var(--border-color) solid;
+    border-radius: 5px;
+    padding: 16px;
+    gap: 50px;
+    margin-bottom: 25px;
+}
+
+.main-container__info-section div {
+    background-color: var(--second-background-color);
+}
+
+.main-container__info-section-card-container {
+    background-color: var(--card-background-color) !important;
+    box-shadow: 3px 3px 3px var(--box-shadow-color);
+    border-radius: 5px;
+    padding: 24px;
+    width: 100%;
+}
+
+.main-container__info-section-image {
+    width: 250px;
+    height: 250px;
+    border: 3px var(--border-color) solid;
+    border-radius: 50%;
+}
+
+.main-container__info-section-skill-card, .main-container__info-section-skill-card div {
+    background-color: var(--card-background-color) !important;
+}
+
+.main-container__info-section-skill-card {
+    background-color: var(--card-background-color) !important;
+    box-shadow: 3px 3px 3px var(--box-shadow-color);
+    border-radius: 5px;
+    padding: 24px;
+    transition: transform 0.15s ease-out;
+    will-change: transform;
+}
+
+.skill-icon {
+    width: 150px;
+    height: 150px;
+}
+
+.skill-stars {
+    width: 150px;
+    height: 31px;
+}

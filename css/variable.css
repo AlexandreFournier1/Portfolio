@@ -1,0 +1,14 @@
+@import url('https://googleapis.com');
+
+:root {
+    --font-family: 'Inter', sans-serif;
+    --main-background-color: #0F172A;
+    --second-background-color: #1E293B;
+    --main-text-color: #F8FAFC;
+    --second-text-color: #CBD5E1;
+    --accent-color: #3B82F6;
+    --hover-color: #60A5FA;
+    --border-color: #334155;
+    --card-background-color: #334155;
+    --box-shadow-color: #25303d;
+}
