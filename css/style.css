@@ -1,14 +1,24 @@
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
 * {
     color: var(--main-text-color);
     font-family: var(--font-family);
 }
 
 html {
-    height: 100%;
+    scroll-behavior: smooth;
 }
 
 body {
     margin: 0px;
+    min-height: 100vh;
     background-color: var(--main-background-color);
 }
 
@@ -22,6 +32,15 @@ h2 {
 
 p {
     font-size: 14px;
+}
+
+main {
+    opacity: 0;
+    animation: fadeIn 0.7s ease-in-out forwards;
+}
+
+.arrow {
+    font-size: 24px;
 }
 
 .row-display {
@@ -87,13 +106,29 @@ p {
     padding: 3rem 2rem;
 }
 
-.main-container__info-section {
+.main-container__info-button-section {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    width: 100%;
+}
+
+.main-container__info-button {
+    align-items: center;
+    justify-content: center;
+}
+
+.main-container__info-section, .main-container__info-button {
     background-color: var(--second-background-color);
     border: 1px var(--border-color) solid;
     border-radius: 5px;
     padding: 16px;
     gap: 50px;
     margin-bottom: 25px;
+}
+
+.main-container__info-button {
+    width: 100%;
 }
 
 .main-container__info-section div {
