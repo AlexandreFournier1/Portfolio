@@ -3,6 +3,10 @@
     font-family: var(--font-family);
 }
 
+html {
+    height: 100%;
+}
+
 body {
     margin: 0px;
     background-color: var(--main-background-color);
@@ -52,7 +56,7 @@ p {
     border-radius: 0 0 5px 5px;
 }
 
-.header-container, .header-container__nav-links, .header-container__nav-link {
+.header-container, .header-container__nav-links, .header-container__nav-link, .footer-container {
     background-color: var(--second-background-color);
 }
 
@@ -132,4 +136,34 @@ p {
 .skill-stars {
     width: 150px;
     height: 31px;
+}
+
+.footer-container {
+    border: 1px var(--border-color) solid;
+    border-radius: 5px 5px 0 0;
+}
+
+.footer-container__section-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 860px;
+    margin: 0 auto;
+}
+
+.footer-container__contact-info-item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 12px;
+}
+
+.footer-info-icon {
+    width: 24px;
+    height: 24px;
+}
+
+.footer-container__contact-info-link {
+    text-decoration: none;
 }
