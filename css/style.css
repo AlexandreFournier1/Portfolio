@@ -39,6 +39,10 @@ main {
     animation: fadeIn 0.7s ease-in-out forwards;
 }
 
+a {
+    text-decoration: none;
+}
+
 .arrow {
     font-size: 24px;
 }
@@ -68,6 +72,13 @@ main {
 .column-display {
     display: flex;
     flex-direction: column;
+}
+
+.section-title {
+    border-bottom: 1px var(--border-color) solid;
+    margin-bottom: 24px;
+    font-weight: 100;
+    font-size: 30px;
 }
 
 .header-container {
@@ -171,6 +182,84 @@ main {
 .skill-stars {
     width: 150px;
     height: 31px;
+}
+
+.main-container__info-section-project-card , 
+.main-container__info-section-project-card-description-container, 
+.main-container__info-section-project-card-techno-container,
+.project-logo-container, 
+.project-description-container,
+.project-techno-icon-container {
+    background-color: var(--card-background-color) !important;
+}
+
+.main-container__info-section-project-card {
+    width: 500px;
+    box-shadow: 3px 3px 3px var(--box-shadow-color);
+    border-radius: 5px;
+    padding: 24px;
+    transition: transform 0.15s ease-out;
+    will-change: transform;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+
+.project-logo {
+    width: 100px;
+    height: 100px;
+}
+
+.project-techno-icon {
+    background-color: var(--third-background-color) !important;
+    box-shadow: none;
+    border-radius: 10px;
+    padding: 5px;
+    width: 50px;
+    height: 50px;
+}
+
+.main-container__info-section-project-card-description-container {
+    gap: 16px;
+    overflow: hidden;
+}
+
+.project-description-container p {
+    width: 300px;
+}
+
+.main-container__info-section-project-card-techno-wrapper {
+    background-color: var(--card-background-color) !important;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.main-container__info-section-project-card-techno-container {
+    display: flex;
+    justify-content: start;
+    gap: 16px;
+}
+
+.project-logo-container {
+    display: flex;
+    align-items: center;
+}
+
+.project-techno-button {
+    display: flex;
+    align-items: center;
+    height: 24px;
+    padding: 6px;
+    border-radius: 10px;
+    background-color: var(--third-background-color) !important;
+}
+
+.project-techno-button-link {
+    display: flex;
+    align-items: center;
+    gap: 6px;
 }
 
 .footer-container {

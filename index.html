@@ -17,8 +17,8 @@
             </div>
             <div>
                 <a href="#skills" class="header-container__nav-link">Skills</a>
-                <a href="#" class="header-container__nav-link">Experiences</a>
-                <a href="#" class="header-container__nav-link">Project</a>
+                <a href="#projects" class="header-container__nav-link">Project</a>
+                <a href="#background" class="header-container__nav-link">Background</a>
                 <a href="#contact" class="header-container__nav-link">Contact</a>
             </div>
         </nav>
@@ -42,7 +42,12 @@
                 </p>
             </div>
         </section>
-        <section class="main-container__info-section row-display cards-menu" id="skills">
+
+        <div class="section-title" id="skills">
+            SKILLS
+        </div>
+
+        <section class="main-container__info-section row-display cards-menu" data-card-selector=".main-container__info-section-skill-card">
             <!-- Language C -->
             <div class="main-container__info-section-skill-card column-display">
                 <div class="main-container__info-section-skill-card-icon">
@@ -203,9 +208,289 @@
                 </div>
             </div>
         </section>
-        <section class="main-container__info-section row-display">
-            <!-- Projects -->
+
+        <div class="section-title" id="projects">
+            PROJECTS
+        </div>
+
+        <section class="main-container__info-section row-display cards-menu" data-card-selector=".main-container__info-section-project-card">
+            <!-- Scroll & Cook -->
+             <div class="main-container__info-section-project-card">
+                <div class="main-container__info-section-project-card-description-container row-display">
+                    <div class="project-logo-container">
+                        <img src="./img/scroll-n-cook-image.png" class="project-logo" />
+                    </div>
+                    <div class="project-description-container column-display">
+                        <h1>
+                            Scroll & Cook
+                        </h1>
+                        <p>
+                            Scroll & Cook is a Flutter mobile application that helps users reduce food waste by suggesting recipes based on the ingredients they already have. 
+                            Beyond recipe discovery, users can create their own recipes, save favorites, and share their creations through an integrated social platform.
+                        </p>
+                    </div>
+                </div>
+                <div class="main-container__info-section-project-card-techno-wrapper row-display">
+                    <div class="main-container__info-section-project-card-techno-container row-display">
+                        <div class="project-techno-icon-container">
+                            <img src="./img/skills/dart-icon.png" title="Dart" class="project-techno-icon" />
+                        </div>
+                        <div class="project-techno-icon-container">
+                            <img src="./img/skills/flutter-icon.png" title="Flutter" class="project-techno-icon" />
+                        </div>
+                        <div class="project-techno-icon-container">
+                            <img src="./img/skills/firebase-icon.png" title="Firebase" class="project-techno-icon" />
+                        </div>
+                    </div>
+                    <div class="main-container__info-section-project-card-techno-container">
+                        <div class="project-techno-button">
+                            <a href="" class="project-techno-button-link">See Details <span class="arrow">→</span></a>
+                        </div>
+                    </div>
+                </div>
+             </div>
+
+            <!-- Online Library -->
+             <div class="main-container__info-section-project-card">
+                <div class="main-container__info-section-project-card-description-container row-display">
+                    <div class="project-logo-container">
+                        <img src="./img/online-library-image.png" class="project-logo" />
+                    </div>
+                    <div class="project-description-container column-display">
+                        <h1>
+                            Online Library
+                        </h1>
+                        <p>
+                            Online Library is a web application that simulates the experience of a digital library. 
+                            Users can browse books across various categories, add them to a borrowing cart, and manage their loans while respecting borrowing deadlines, offering a realistic and intuitive library management system.
+                        </p>
+                    </div>
+                </div>
+                <div class="main-container__info-section-project-card-techno-wrapper row-display">
+                    <div class="main-container__info-section-project-card-techno-wrapper column-display">
+                        <div class="main-container__info-section-project-card-techno-container row-display">
+                            <div class="project-techno-icon-container">
+                                <img src="./img/skills/html-icon.png" title="HTML" class="project-techno-icon" />
+                            </div>
+                            <div class="project-techno-icon-container">
+                                <img src="./img/skills/css-icon.png" title="CSS" class="project-techno-icon" />
+                            </div>
+                            <div class="project-techno-icon-container">
+                                <img src="./img/skills/javascript-icon.png" title="JavaScript" class="project-techno-icon" />
+                            </div>
+                        </div>
+                        <div class="main-container__info-section-project-card-techno-container row-display">
+                            <div class="project-techno-icon-container">
+                                <img src="./img/skills/node-js-icon.png" title="Node.js" class="project-techno-icon" />
+                            </div>
+                            <div class="project-techno-icon-container">
+                                <img src="./img/skills/nunjuck-icon.png" title="Nunjuck" class="project-techno-icon" />
+                            </div>
+                            <div class="project-techno-icon-container">
+                                <img src="./img/skills/sql-lite-icon.png" title="Sql lite" class="project-techno-icon" />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="main-container__info-section-project-card-techno-container">
+                        <div class="project-techno-button">
+                            <a href="" class="project-techno-button-link">See Details <span class="arrow">→</span></a>
+                        </div>
+                    </div>
+                </div>
+             </div>
+
+            <!-- Gecko Dex -->
+             <div class="main-container__info-section-project-card">
+                <div class="main-container__info-section-project-card-description-container row-display">
+                    <div class="project-logo-container">
+                        <img src="./img/gecko-dex-image.png" class="project-logo" />
+                    </div>
+                    <div class="project-description-container column-display">
+                        <h1>
+                            GeckoDex
+                        </h1>
+                        <p>
+                            GeckoDex is a companion application that helps ARK: Survival Evolved players manage their dinosaur taming and breeding sessions. 
+                            Users can track progress in real time with built-in timers, monitor ongoing activities, and optimize their gameplay based on each creature's level and taming requirements.
+                        </p>
+                    </div>
+                </div>
+                <div class="main-container__info-section-project-card-techno-wrapper row-display">
+                    <div class="main-container__info-section-project-card-techno-container row-display">
+                        <div class="project-techno-icon-container">
+                            <img src="./img/skills/csharp-icon.png" title="C#" class="project-techno-icon" />
+                        </div>
+                        <div class="project-techno-icon-container">
+                            <img src="./img/skills/wpf-image.png" title="WPF" class="project-techno-icon" />
+                        </div>
+                    </div>
+                    <div class="main-container__info-section-project-card-techno-container">
+                        <div class="project-techno-button">
+                            <a href="" class="project-techno-button-link">See Details <span class="arrow">→</span></a>
+                        </div>
+                    </div>
+                </div>
+             </div>
+
+            <!-- Projet DACSC -->
+             <div class="main-container__info-section-project-card">
+                <div class="main-container__info-section-project-card-description-container row-display">
+                    <div class="project-logo-container">
+                        <img src="./img/dacsc-image.png" class="project-logo" />
+                    </div>
+                    <div class="project-description-container column-display">
+                        <h1>
+                            Hospital Consultation Management Application
+                        </h1>
+                        <p>
+                            Hospital Consultation Management Application is the largest academic project I have worked on. It is a multi-platform healthcare management system that streamlines appointment scheduling, patient management, medical consultations, and report generation. 
+                            The solution includes dedicated desktop applications for booking, consultations, and medical reporting, alongside web and mobile applications, demonstrating the design and development of a complete software ecosystem.
+                        </p>
+                    </div>
+                </div>
+                <div class="main-container__info-section-project-card-techno-wrapper row-display">
+                    <div class="main-container__info-section-project-card-techno-wrapper column-display">
+                        <div class="main-container__info-section-project-card-techno-container row-display">
+                            <div class="project-techno-icon-container">
+                                <img src="./img/skills/c-icon.png" title="C" class="project-techno-icon" />
+                            </div>
+                            <div class="project-techno-icon-container">
+                                <img src="./img/skills/cplusplus-icon.png" title="C++" class="project-techno-icon" />
+                            </div>
+                            <div class="project-techno-icon-container">
+                                <img src="./img/skills/qt-icon.png" title="Qt" class="project-techno-icon" />
+                            </div>
+                            <div class="project-techno-icon-container">
+                                <img src="./img/skills/java-icon.png" title="Java" class="project-techno-icon" />
+                            </div>
+                        </div>
+                        <div class="main-container__info-section-project-card-techno-container row-display">
+                            <div class="project-techno-icon-container">
+                                <img src="./img/skills/vue-js-icon.png" title="Vue.js" class="project-techno-icon" />
+                            </div>
+                            <div class="project-techno-icon-container">
+                                <img src="./img/skills/typescript-icon.png" title="TypeScript" class="project-techno-icon" />
+                            </div>
+                            <div class="project-techno-icon-container">
+                                <img src="./img/skills/sql-server.png" title="SQL Server" class="project-techno-icon" />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="main-container__info-section-project-card-techno-container">
+                        <div class="project-techno-button">
+                            <a href="" class="project-techno-button-link">See Details <span class="arrow">→</span></a>
+                        </div>
+                    </div>
+                </div>
+             </div>
+
+            <!-- LBDS - Weasleys' Wizard Wheezes -->
+             <div class="main-container__info-section-project-card">
+                <div class="main-container__info-section-project-card-description-container row-display">
+                    <div class="project-logo-container">
+                        <img src="./img/lbds-image.png" class="project-logo" />
+                    </div>
+                    <div class="project-description-container column-display">
+                        <h1>
+                            Weasleys' Wizard Wheezes Plugin
+                        </h1>
+                        <p>
+                            Weasleys' Wizard Wheezes is a custom Minecraft plugin inspired by the famous joke and prank shop from the Harry Potter universe. 
+                            The plugin adds original magical items, interactive mechanics, and entertaining gameplay features, allowing players to experience a unique collection of wizarding pranks directly in Minecraft.
+                        </p>
+                    </div>
+                </div>
+                <div class="main-container__info-section-project-card-techno-wrapper row-display">
+                    <div class="main-container__info-section-project-card-techno-container row-display">
+                        <div class="project-techno-icon-container">
+                            <img src="./img/skills/java-icon.png" title="Java" class="project-techno-icon" />
+                        </div>
+                    </div>
+                    <div class="main-container__info-section-project-card-techno-container">
+                        <div class="project-techno-button">
+                            <a href="" class="project-techno-button-link">See Details <span class="arrow">→</span></a>
+                        </div>
+                    </div>
+                </div>
+             </div>
+
+            <!-- Portfolio -->
+             <div class="main-container__info-section-project-card">
+                <div class="main-container__info-section-project-card-description-container row-display">
+                    <div class="project-logo-container">
+                        <img src="./img/portfolio-icon.png" class="project-logo" />
+                    </div>
+                    <div class="project-description-container column-display">
+                        <h1>
+                            Portfolio
+                        </h1>
+                        <p>
+                            This portfolio showcases my projects, technical skills, and educational background through a modern and responsive interface. 
+                            Throughout its development, I placed a strong emphasis on code reusability by designing reusable components and maintaining a clean, scalable architecture to ensure consistency and ease of maintenance.
+                        </p>
+                    </div>
+                </div>
+                <div class="main-container__info-section-project-card-techno-wrapper row-display">
+                    <div class="main-container__info-section-project-card-techno-container row-display">
+                        <div class="project-techno-icon-container">
+                            <img src="./img/skills/html-icon.png" title="HTML" class="project-techno-icon" />
+                        </div>
+                        <div class="project-techno-icon-container">
+                            <img src="./img/skills/css-icon.png" title="CSS" class="project-techno-icon" />
+                        </div>
+                        <div class="project-techno-icon-container">
+                            <img src="./img/skills/javascript-icon.png" title="JavaScript" class="project-techno-icon" />
+                        </div>
+                    </div>
+                    <div class="main-container__info-section-project-card-techno-container">
+                        <div class="project-techno-button">
+                            <a href="" class="project-techno-button-link">See Details <span class="arrow">→</span></a>
+                        </div>
+                    </div>
+                </div>
+             </div>
+
+            <!-- Projet Web BAC 1 -->
+             <div class="main-container__info-section-project-card">
+                <div class="main-container__info-section-project-card-description-container row-display">
+                    <div class="project-logo-container">
+                        <img src="./img/letter-game-image.png" class="project-logo" />
+                    </div>
+                    <div class="project-description-container column-display">
+                        <h1>
+                            Letter Game
+                        </h1>
+                        <p>
+                            Letter Game is an educational web application designed to help users improve their spelling and vocabulary through interactive gameplay. 
+                            Players are presented with an image and must drag and drop letters to correctly form the corresponding word, creating a fun and engaging learning experience.
+                        </p>
+                    </div>
+                </div>
+                <div class="main-container__info-section-project-card-techno-wrapper row-display">
+                    <div class="main-container__info-section-project-card-techno-container row-display">
+                        <div class="project-techno-icon-container">
+                            <img src="./img/skills/html-icon.png" title="HTML" class="project-techno-icon" />
+                        </div>
+                        <div class="project-techno-icon-container">
+                            <img src="./img/skills/css-icon.png" title="CSS" class="project-techno-icon" />
+                        </div>
+                        <div class="project-techno-icon-container">
+                            <img src="./img/skills/javascript-icon.png" title="JavaScript" class="project-techno-icon" />
+                        </div>
+                    </div>
+                    <div class="main-container__info-section-project-card-techno-container">
+                        <div class="project-techno-button">
+                            <a href="" class="project-techno-button-link">See Details <span class="arrow">→</span></a>
+                        </div>
+                    </div>
+                </div>
+             </div>
         </section>
+
+        <div class="section-title" id="background">
+            BACKGROUND
+        </div>
+
         <section class="main-container__info-button-section row-display">
             <section class="main-container__info-button row-display">
                 <span class="arrow">←</span>
@@ -238,7 +523,7 @@
                 <h2>Useful Links</h2>
                 <p class="footer-container__contact-info-item">
                     <img src="./img/linkedin-icon.png" class="footer-info-icon" />
-                    <a href="www.linkedin.com/in/alexandre-fournier-55b805296" class="footer-container__contact-info-link">Linkedin</a>
+                    <a href="https://www.linkedin.com/in/alexandre-fournier-55b805296" class="footer-container__contact-info-link">Linkedin</a>
                 </p>
                 <p class="footer-container__contact-info-item">
                     <img src="./img/github-icon.png" class="footer-info-icon" />
