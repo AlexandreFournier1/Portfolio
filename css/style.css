@@ -43,6 +43,10 @@ a {
     text-decoration: none;
 }
 
+.hidden {
+    display: none !important;
+}
+
 .arrow {
     font-size: 24px;
 }
@@ -261,6 +265,14 @@ a {
     align-items: center;
     gap: 6px;
 }
+
+.return-home-section {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+
 
 .footer-container {
     border: 1px var(--border-color) solid;

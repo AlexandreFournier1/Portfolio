@@ -487,18 +487,33 @@
              </div>
         </section>
 
+        <div class="return-home-section row-display hidden" onclick="returnHome()">
+            <span class="arrow">←</span>
+            <h2>
+                Return Home
+            </h2>
+        </div>
+
         <div class="section-title" id="background">
             BACKGROUND
         </div>
 
+        <section class="main-container__info-section hidden" id="educational-background">
+            Educational Background
+        </section>
+
+        <section class="main-container__info-section hidden" id="experience-background">
+            Experience Background
+        </section>
+
         <section class="main-container__info-button-section row-display">
-            <section class="main-container__info-button row-display">
+            <section class="main-container__info-button row-display" onclick="displayBackground('educational')">
                 <span class="arrow">←</span>
                 <h2>
                     Educational Background
                 </h2>
             </section>
-            <section class="main-container__info-button row-display">
+            <section class="main-container__info-button row-display" onclick="displayBackground('experience')">
                 <h2>
                     Experience Background
                 </h2>

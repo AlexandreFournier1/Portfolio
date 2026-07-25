@@ -107,3 +107,33 @@ function initCarousel(cardsContainer) {
 }
 
 document.querySelectorAll('.cards-menu').forEach(initCarousel);
+
+function displayBackground(type) {
+    let title = document.getElementById('background');
+    let container = document.getElementById(type + '-background');
+    let returnHome = document.querySelector('.return-home-section');
+
+    document.querySelectorAll('main > *').forEach(section => {
+        section.classList.add('hidden');
+    });
+
+    title.classList.remove('hidden');
+    container.classList.remove('hidden');
+    returnHome.classList.remove('hidden');
+};
+
+function returnHome() {
+    const containers = document.querySelectorAll('[id$="-background"]')
+    
+    let returnHome = document.querySelector('.return-home-section');
+
+    document.querySelectorAll('main > *').forEach(section => {
+        section.classList.remove('hidden');
+    });
+
+    containers.forEach(container => {
+        container.classList.add('hidden');
+    })
+
+    returnHome.classList.add('hidden');
+};
