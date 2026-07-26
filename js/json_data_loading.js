@@ -1,24 +1,40 @@
 const container = document.getElementById('project-container');
-const template = document.getElementById('project-tempate');
+const template = document.getElementById('project-card-template');
 
-async function loadData() {
+async function loadProjects() {
     try {
-        const reponse = await fetch('../json/data.json');
-        const donnees = await reponse.json();
+        const response = await fetch('./json/data.json');
+        const projects = await response.json();
 
-        donnees.forEach(item => {
-            const clone = template.content.cloneNode(true);
+        projects.forEach(project => {
+            const card = template.content.cloneNode(true);
 
-            clone.querySelector('.project-icon').src = item.icon_source;
-            clone.querySelector('.project-title').textContent = item.title;
-            clone.querySelector('.project-image').src = item.image_source;
-            clone.querySelector('.project-description').src = item.description;
+            card.querySelector('.project-logo').src = project.logo;
+            card.querySelector('.project-title').textContent = project.title;
+            card.querySelector('.project-description').textContent = project.description;
+            card.querySelector('.project-techno-button-link').href = project.link;
 
-            conteneur.appendChild(clone);
+            const technoList = card.querySelector('.project-techno-list');
+            project.technologies.forEach(tech => {
+                const iconContainer = document.createElement('div');
+                iconContainer.classList.add('project-techno-icon-container');
+
+                const icon = document.createElement('img');
+                icon.src = tech.icon;
+                icon.title = tech.name;
+                icon.classList.add('project-techno-icon');
+
+                iconContainer.appendChild(icon);
+                technoList.appendChild(iconContainer);
+            });
+
+            container.appendChild(card);
         });
+
+        window.initCarousel(container);
     } catch (erreur) {
         console.error("Loading Error :", erreur);
     }
 }
 
-loadData();
+loadProjects();

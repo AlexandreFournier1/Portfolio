@@ -106,7 +106,13 @@ function initCarousel(cardsContainer) {
     window.addEventListener('load', requestScaleUpdate);
 }
 
-document.querySelectorAll('.cards-menu').forEach(initCarousel);
+window.initCarousel = initCarousel;
+
+document.querySelectorAll('.cards-menu').forEach(cardsContainer => {
+    if (cardsContainer.id !== 'project-container') {
+        initCarousel(cardsContainer);
+    }
+});
 
 function displayBackground(type) {
     let title = document.getElementById('background');
