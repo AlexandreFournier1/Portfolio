@@ -1,10 +1,12 @@
-const container = document.getElementById('project-container');
-const template = document.getElementById('project-card-template');
-
 async function loadProjects() {
+    const container = document.getElementById('project-container');
+    const template = document.getElementById('project-card-template');
+
     try {
         const response = await fetch('./json/data.json');
-        const projects = await response.json();
+        const json = await response.json();
+
+        const projects = json.projects;
 
         projects.forEach(project => {
             const card = template.content.cloneNode(true);
@@ -37,4 +39,30 @@ async function loadProjects() {
     }
 }
 
+async function loadSkills() {
+    const container = document.getElementById('skill-container');
+    const template = document.getElementById('skill-card-template');
+
+    try {
+        const response = await fetch('./json/data.json');
+        const json = await response.json();
+
+        const skills = json.skills;
+        
+        skills.forEach(skill => {
+            const card = template.content.cloneNode(true);
+
+            card.querySelector('.skill-icon').src = skill.logo;
+            card.querySelector('.skill-stars').src = skill.stars;
+
+            container.appendChild(card);
+        });
+
+        window.initCarousel(container);
+    } catch (erreur) {
+        console.error("Loading Error :", erreur);
+    }
+}
+
+loadSkills();
 loadProjects();
