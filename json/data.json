@@ -1,153 +1,151 @@
-[
-    {
-        "projects": [
-            {
-                "title": "Scroll & Cook",
-                "logo": "./img/scroll-n-cook-image.png",
-                "description": "Scroll & Cook is a Flutter mobile application that helps users reduce food waste by suggesting recipes based on the ingredients they already have. Beyond recipe discovery, users can create their own recipes, save favorites, and share their creations through an integrated social platform.",
-                "link": "",
-                "technologies": [
-                    { "name": "Dart", "icon": "./img/skills/dart-icon.png" },
-                    { "name": "Flutter", "icon": "./img/skills/flutter-icon.png" },
-                    { "name": "Firebase", "icon": "./img/skills/firebase-icon.png" }
-                ]
-            },
-            {
-                "title": "Online Library",
-                "logo": "./img/online-library-image.png",
-                "description": "Online Library is a web application that simulates the experience of a digital library. Users can browse books across various categories, add them to a borrowing cart, and manage their loans while respecting borrowing deadlines, offering a realistic and intuitive library management system.",
-                "link": "",
-                "technologies": [
-                    { "name": "HTML", "icon": "./img/skills/html-icon.png" },
-                    { "name": "CSS", "icon": "./img/skills/css-icon.png" },
-                    { "name": "JavaScript", "icon": "./img/skills/javascript-icon.png" },
-                    { "name": "Node.js", "icon": "./img/skills/node-js-icon.png" },
-                    { "name": "Nunjuck", "icon": "./img/skills/nunjuck-icon.png" },
-                    { "name": "Sql lite", "icon": "./img/skills/sql-lite-icon.png" }
-                ]
-            },
-            {
-                "title": "GeckoDex",
-                "logo": "./img/gecko-dex-image.png",
-                "description": "GeckoDex is a companion application that helps ARK: Survival Evolved players manage their dinosaur taming and breeding sessions. Users can track progress in real time with built-in timers, monitor ongoing activities, and optimize their gameplay based on each creature's level and taming requirements.",
-                "link": "",
-                "technologies": [
-                    { "name": "C#", "icon": "./img/skills/csharp-icon.png" },
-                    { "name": "WPF", "icon": "./img/skills/wpf-image.png" }
-                ]
-            },
-            {
-                "title": "Hospital Consultation Management Application",
-                "logo": "./img/dacsc-image.png",
-                "description": "Hospital Consultation Management Application is the largest academic project I have worked on. It is a multi-platform healthcare management system that streamlines appointment scheduling, patient management, medical consultations, and report generation. The solution includes dedicated desktop applications for booking, consultations, and medical reporting, alongside web and mobile applications, demonstrating the design and development of a complete software ecosystem.",
-                "link": "",
-                "technologies": [
-                    { "name": "C", "icon": "./img/skills/c-icon.png" },
-                    { "name": "C++", "icon": "./img/skills/cplusplus-icon.png" },
-                    { "name": "Qt", "icon": "./img/skills/qt-icon.png" },
-                    { "name": "Java", "icon": "./img/skills/java-icon.png" },
-                    { "name": "Vue.js", "icon": "./img/skills/vue-js-icon.png" },
-                    { "name": "TypeScript", "icon": "./img/skills/typescript-icon.png" },
-                    { "name": "SQL Server", "icon": "./img/skills/sql-server.png" }
-                ]
-            },
-            {
-                "title": "Weasleys' Wizard Wheezes Plugin",
-                "logo": "./img/lbds-image.png",
-                "description": "Weasleys' Wizard Wheezes is a custom Minecraft plugin inspired by the famous joke and prank shop from the Harry Potter universe. The plugin adds original magical items, interactive mechanics, and entertaining gameplay features, allowing players to experience a unique collection of wizarding pranks directly in Minecraft.",
-                "link": "",
-                "technologies": [
-                    { "name": "Java", "icon": "./img/skills/java-icon.png" }
-                ]
-            },
-            {
-                "title": "Portfolio",
-                "logo": "./img/portfolio-icon.png",
-                "description": "This portfolio showcases my projects, technical skills, and educational background through a modern and responsive interface. Throughout its development, I placed a strong emphasis on code reusability by designing reusable components and maintaining a clean, scalable architecture to ensure consistency and ease of maintenance.",
-                "link": "",
-                "technologies": [
-                    { "name": "HTML", "icon": "./img/skills/html-icon.png" },
-                    { "name": "CSS", "icon": "./img/skills/css-icon.png" },
-                    { "name": "JavaScript", "icon": "./img/skills/javascript-icon.png" }
-                ]
-            },
-            {
-                "title": "Letter Game",
-                "logo": "./img/letter-game-image.png",
-                "description": "Letter Game is an educational web application designed to help users improve their spelling and vocabulary through interactive gameplay. Players are presented with an image and must drag and drop letters to correctly form the corresponding word, creating a fun and engaging learning experience.",
-                "link": "",
-                "technologies": [
-                    { "name": "HTML", "icon": "./img/skills/html-icon.png" },
-                    { "name": "CSS", "icon": "./img/skills/css-icon.png" },
-                    { "name": "JavaScript", "icon": "./img/skills/javascript-icon.png" }
-                ]
-            }
-        ],
-        "skills": [
-            {
-                "logo": "./img/skills/c-icon.png",
-                "stars": "./img/stars/3-stars.png"
-            },
-            {
-                "logo": "./img/skills/csharp-icon.png",
-                "stars": "./img/stars/4-stars.png"
-            },
-            {
-                "logo": "./img/skills/cplusplus-icon.png",
-                "stars": "./img/stars/1-stars.png"
-            },
-            {
-                "logo": "./img/skills/html-icon.png",
-                "stars": "./img/stars/4-stars.png"
-            },
-            {
-                "logo": "./img/skills/css-icon.png",
-                "stars": "./img/stars/4-stars.png"
-            },
-            {
-                "logo": "./img/skills/javascript-icon.png",
-                "stars": "./img/stars/3-stars.png"
-            },
-            {
-                "logo": "./img/skills/java-icon.png",
-                "stars": "./img/stars/2-stars.png"
-            },
-            {
-                "logo": "./img/skills/dart-icon.png",
-                "stars": "./img/stars/3-stars.png"
-            },
-            {
-                "logo": "./img/skills/blazor-icon.png",
-                "stars": "./img/stars/4-stars.png"
-            },
-            {
-                "logo": "./img/skills/flutter-icon.png",
-                "stars": "./img/stars/3-stars.png"
-            },
-            {
-                "logo": "./img/skills/entity-framework-icon.png",
-                "stars": "./img/stars/4-stars.png"
-            },
-            {
-                "logo": "./img/skills/node-js-icon.png",
-                "stars": "./img/stars/3-stars.png"
-            },
-            {
-                "logo": "./img/skills/sql-icon.png",
-                "stars": "./img/stars/4-stars.png"
-            },
-            {
-                "logo": "./img/skills/git-icon.png",
-                "stars": "./img/stars/4-stars.png"
-            },
-            {
-                "logo": "./img/skills/azure-devops-icon.png",
-                "stars": "./img/stars/3-stars.png"
-            },
-            {
-                "logo": "./img/skills/dotnet-aspire-icon.png",
-                "stars": "./img/stars/3-stars.png"
-            }
-        ]
-    }
-]
+{
+    "projects": [
+        {
+            "title": "Scroll & Cook",
+            "logo": "./img/scroll-n-cook-image.png",
+            "description": "Scroll & Cook is a Flutter mobile application that helps users reduce food waste by suggesting recipes based on the ingredients they already have. Beyond recipe discovery, users can create their own recipes, save favorites, and share their creations through an integrated social platform.",
+            "link": "",
+            "technologies": [
+                { "name": "Dart", "icon": "./img/skills/dart-icon.png" },
+                { "name": "Flutter", "icon": "./img/skills/flutter-icon.png" },
+                { "name": "Firebase", "icon": "./img/skills/firebase-icon.png" }
+            ]
+        },
+        {
+            "title": "Online Library",
+            "logo": "./img/online-library-image.png",
+            "description": "Online Library is a web application that simulates the experience of a digital library. Users can browse books across various categories, add them to a borrowing cart, and manage their loans while respecting borrowing deadlines, offering a realistic and intuitive library management system.",
+            "link": "",
+            "technologies": [
+                { "name": "HTML", "icon": "./img/skills/html-icon.png" },
+                { "name": "CSS", "icon": "./img/skills/css-icon.png" },
+                { "name": "JavaScript", "icon": "./img/skills/javascript-icon.png" },
+                { "name": "Node.js", "icon": "./img/skills/node-js-icon.png" },
+                { "name": "Nunjuck", "icon": "./img/skills/nunjuck-icon.png" },
+                { "name": "Sql lite", "icon": "./img/skills/sql-lite-icon.png" }
+            ]
+        },
+        {
+            "title": "GeckoDex",
+            "logo": "./img/gecko-dex-image.png",
+            "description": "GeckoDex is a companion application that helps ARK: Survival Evolved players manage their dinosaur taming and breeding sessions. Users can track progress in real time with built-in timers, monitor ongoing activities, and optimize their gameplay based on each creature's level and taming requirements.",
+            "link": "",
+            "technologies": [
+                { "name": "C#", "icon": "./img/skills/csharp-icon.png" },
+                { "name": "WPF", "icon": "./img/skills/wpf-image.png" }
+            ]
+        },
+        {
+            "title": "Hospital Consultation Management Application",
+            "logo": "./img/dacsc-image.png",
+            "description": "Hospital Consultation Management Application is the largest academic project I have worked on. It is a multi-platform healthcare management system that streamlines appointment scheduling, patient management, medical consultations, and report generation. The solution includes dedicated desktop applications for booking, consultations, and medical reporting, alongside web and mobile applications, demonstrating the design and development of a complete software ecosystem.",
+            "link": "",
+            "technologies": [
+                { "name": "C", "icon": "./img/skills/c-icon.png" },
+                { "name": "C++", "icon": "./img/skills/cplusplus-icon.png" },
+                { "name": "Qt", "icon": "./img/skills/qt-icon.png" },
+                { "name": "Java", "icon": "./img/skills/java-icon.png" },
+                { "name": "Vue.js", "icon": "./img/skills/vue-js-icon.png" },
+                { "name": "TypeScript", "icon": "./img/skills/typescript-icon.png" },
+                { "name": "SQL Server", "icon": "./img/skills/sql-server.png" }
+            ]
+        },
+        {
+            "title": "Weasleys' Wizard Wheezes Plugin",
+            "logo": "./img/lbds-image.png",
+            "description": "Weasleys' Wizard Wheezes is a custom Minecraft plugin inspired by the famous joke and prank shop from the Harry Potter universe. The plugin adds original magical items, interactive mechanics, and entertaining gameplay features, allowing players to experience a unique collection of wizarding pranks directly in Minecraft.",
+            "link": "",
+            "technologies": [
+                { "name": "Java", "icon": "./img/skills/java-icon.png" }
+            ]
+        },
+        {
+            "title": "Portfolio",
+            "logo": "./img/portfolio-icon.png",
+            "description": "This portfolio showcases my projects, technical skills, and educational background through a modern and responsive interface. Throughout its development, I placed a strong emphasis on code reusability by designing reusable components and maintaining a clean, scalable architecture to ensure consistency and ease of maintenance.",
+            "link": "",
+            "technologies": [
+                { "name": "HTML", "icon": "./img/skills/html-icon.png" },
+                { "name": "CSS", "icon": "./img/skills/css-icon.png" },
+                { "name": "JavaScript", "icon": "./img/skills/javascript-icon.png" }
+            ]
+        },
+        {
+            "title": "Letter Game",
+            "logo": "./img/letter-game-image.png",
+            "description": "Letter Game is an educational web application designed to help users improve their spelling and vocabulary through interactive gameplay. Players are presented with an image and must drag and drop letters to correctly form the corresponding word, creating a fun and engaging learning experience.",
+            "link": "",
+            "technologies": [
+                { "name": "HTML", "icon": "./img/skills/html-icon.png" },
+                { "name": "CSS", "icon": "./img/skills/css-icon.png" },
+                { "name": "JavaScript", "icon": "./img/skills/javascript-icon.png" }
+            ]
+        }
+    ],
+    "skills": [
+        {
+            "logo": "./img/skills/c-icon.png",
+            "stars": "./img/stars/3-stars.png"
+        },
+        {
+            "logo": "./img/skills/csharp-icon.png",
+            "stars": "./img/stars/4-stars.png"
+        },
+        {
+            "logo": "./img/skills/cplusplus-icon.png",
+            "stars": "./img/stars/1-stars.png"
+        },
+        {
+            "logo": "./img/skills/html-icon.png",
+            "stars": "./img/stars/4-stars.png"
+        },
+        {
+            "logo": "./img/skills/css-icon.png",
+            "stars": "./img/stars/4-stars.png"
+        },
+        {
+            "logo": "./img/skills/javascript-icon.png",
+            "stars": "./img/stars/3-stars.png"
+        },
+        {
+            "logo": "./img/skills/java-icon.png",
+            "stars": "./img/stars/2-stars.png"
+        },
+        {
+            "logo": "./img/skills/dart-icon.png",
+            "stars": "./img/stars/3-stars.png"
+        },
+        {
+            "logo": "./img/skills/blazor-icon.png",
+            "stars": "./img/stars/4-stars.png"
+        },
+        {
+            "logo": "./img/skills/flutter-icon.png",
+            "stars": "./img/stars/3-stars.png"
+        },
+        {
+            "logo": "./img/skills/entity-framework-icon.png",
+            "stars": "./img/stars/4-stars.png"
+        },
+        {
+            "logo": "./img/skills/node-js-icon.png",
+            "stars": "./img/stars/3-stars.png"
+        },
+        {
+            "logo": "./img/skills/sql-icon.png",
+            "stars": "./img/stars/4-stars.png"
+        },
+        {
+            "logo": "./img/skills/git-icon.png",
+            "stars": "./img/stars/4-stars.png"
+        },
+        {
+            "logo": "./img/skills/azure-devops-icon.png",
+            "stars": "./img/stars/3-stars.png"
+        },
+        {
+            "logo": "./img/skills/dotnet-aspire-icon.png",
+            "stars": "./img/stars/3-stars.png"
+        }
+    ]
+}
