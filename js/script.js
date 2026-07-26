@@ -109,7 +109,7 @@ function initCarousel(cardsContainer) {
 window.initCarousel = initCarousel;
 
 document.querySelectorAll('.cards-menu').forEach(cardsContainer => {
-    if (cardsContainer.id !== 'project-container') {
+    if (!cardsContainer.querySelector(':scope > template')) {
         initCarousel(cardsContainer);
     }
 });
