@@ -170,7 +170,59 @@
             }
         ],
         "experience": [
-
+            {
+                "title": "EVS Broadcast Equipment",
+                "years": "Jul. 2026 - Sep. 2026",
+                "subtitle": "Software Engineer",
+                "tags": ["C# (.NET)", "Blazor", "HTML/CSS", ".NET Aspire", "Azure DevOps"],
+                "description": [
+                    "Maintained and improved Blazor web application delivered during final-year internship.",
+                    "Developed Blazor admin interface to manage user and manager access and right.",
+                    "Maintained and improved UI Library NuGet Packages.",
+                    "Deployed to UAT environment."
+                ]
+            },
+            {
+                "title": "EVS Broadcast Equipment",
+                "years": "Feb. 2026 – May 2026",
+                "subtitle": "Final-year internship",
+                "tags": ["C# (.NET)", "Blazor", "HTML/CSS", ".NET Aspire", "Azure DevOps", "Software Analysis"],
+                "description": [
+                    "Designed and developed a Blazor web application to manage user and access right.",
+                    "Developed a custom UI Library NuGet Package composed of reusable component for whole EVS applications.",
+                    "Created and managed custom local environment with .NET Aspire.",
+                    "Implemented different authentication solution depending on type of users. Using Microsoft Entra and Bare.ID.",
+                    "Designed a maintanable and scalable architecture."
+                ]
+            },
+            {
+                "title": "CE+T Power",
+                "years": "Nov. 2024",
+                "subtitle": "Job Shadowing",
+                "tags": [],
+                "description": "Observed software engineer during their work and helped to configure router and switch."
+            },
+            {
+                "title": "Minecraft Server \"Le Banquet du Sorcier\" Community",
+                "years": "2023 - 2024",
+                "subtitle": "Software Engineer - Java",
+                "tags": ["Java"],
+                "description": "Developed a custom Minecraft Plugin to materialize Weasleys' Wizard Wheezes and potion from Harry Potter universe."
+            },
+            {
+                "title": "Civadis",
+                "years": "Jul. 2024",
+                "subtitle": "Facilities, Storage and Archives Assistant",
+                "tags": [],
+                "description": "Maintained and organized storage areas and archives, cleaned office."
+            },
+            {
+                "title": "Centre Logistique de Chênée - CHU",
+                "years": "Aug. 2023",
+                "subtitle": "Cleaner",
+                "tags": [],
+                "description": "Cleaned office and building."
+            }
         ]
     }
 }

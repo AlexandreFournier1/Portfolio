@@ -64,7 +64,7 @@ async function loadSkills() {
     }
 }
 
-export async function loadBackground(type) {
+async function loadBackground(type) {
     const container = document.getElementById(type + '-background-container');
     const template = document.getElementById(type + '-background-template');
 
@@ -72,20 +72,44 @@ export async function loadBackground(type) {
         const response = await fetch('./json/data.json');
         const json = await response.json();
 
-        const backgroundContainer = json.background;
-        const items = getBackgroundItems(type, backgroundContainer);
+        const items = getBackgroundItems(type, json.background);
 
         if (items === null) throw new Error("Invalid type");
+
+        container.innerHTML = '';
 
         items.forEach(item => {
             const timelineItem = template.content.cloneNode(true);
 
-            timelineItem.querySelector('timeline-item-title-container__title').textContent = item.title;
-            timelineItem.querySelector('timeline-item-title-container__years').textContent = item.years;
-            timelineItem.querySelector('timeline-item__subtitle').textContent = item.subtitle;
-            timelineItem.querySelector('timeline-item__description').textContent = item.description;
+            timelineItem.querySelector('.timeline-item-title-container__title').textContent = item.title;
+            timelineItem.querySelector('.timeline-item-title-container__years').textContent = item.years;
+            timelineItem.querySelector('.timeline-item__subtitle').textContent = item.subtitle;
 
-            container.appendChild(item);
+            const tagsContainer = timelineItem.querySelector('.timeline-item_tags');
+            if (tagsContainer) {
+                (item.tags || []).forEach(tag => {
+                    const tagElement = document.createElement('div');
+                    tagElement.classList.add('timeline-item_tag');
+                    tagElement.textContent = tag;
+                    tagsContainer.appendChild(tagElement);
+                });
+            }
+
+            const descriptionContainer = timelineItem.querySelector('.timeline-item__description');
+            if (Array.isArray(item.description)) {
+                const list = document.createElement('ul');
+                list.classList.add('timeline-item__description-list');
+                item.description.forEach(line => {
+                    const listItem = document.createElement('li');
+                    listItem.textContent = line;
+                    list.appendChild(listItem);
+                });
+                descriptionContainer.appendChild(list);
+            } else {
+                descriptionContainer.textContent = item.description;
+            }
+
+            container.appendChild(timelineItem);
         });
     } catch (erreur) {
         console.error("Loading Error :", erreur);
