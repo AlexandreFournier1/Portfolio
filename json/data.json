@@ -108,8 +108,12 @@
             "stars": "./img/stars/3-stars.png"
         },
         {
-            "logo": "./img/skills/java-icon.png",
+            "logo": "./img/skills/typescript-icon.png",
             "stars": "./img/stars/2-stars.png"
+        },
+        {
+            "logo": "./img/skills/java-icon.png",
+            "stars": "./img/stars/3-stars.png"
         },
         {
             "logo": "./img/skills/dart-icon.png",
@@ -118,6 +122,10 @@
         {
             "logo": "./img/skills/blazor-icon.png",
             "stars": "./img/stars/4-stars.png"
+        },
+        {
+            "logo": "./img/skills/wpf-image.png",
+            "stars": "./img/stars/2-stars.png"
         },
         {
             "logo": "./img/skills/flutter-icon.png",
@@ -132,8 +140,24 @@
             "stars": "./img/stars/3-stars.png"
         },
         {
+            "logo": "./img/skills/vue-js-icon.png",
+            "stars": "./img/stars/2-stars.png"
+        },
+        {
             "logo": "./img/skills/sql-icon.png",
             "stars": "./img/stars/4-stars.png"
+        },
+        {
+            "logo": "./img/skills/sql-server.png",
+            "stars": "./img/stars/3-stars.png"
+        },
+        {
+            "logo": "./img/skills/sql-lite-icon.png",
+            "stars": "./img/stars/2-stars.png"
+        },
+        {
+            "logo": "./img/skills/firebase-icon.png",
+            "stars": "./img/stars/3-stars.png"
         },
         {
             "logo": "./img/skills/git-icon.png",
