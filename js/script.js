@@ -123,6 +123,8 @@ function displayBackground(type) {
         section.classList.add('hidden');
     });
 
+    loadBackground(type);
+
     title.classList.remove('hidden');
     container.classList.remove('hidden');
     returnHome.classList.remove('hidden');

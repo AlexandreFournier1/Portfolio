@@ -147,5 +147,30 @@
             "logo": "./img/skills/dotnet-aspire-icon.png",
             "stars": "./img/stars/3-stars.png"
         }
-    ]
+    ],
+    "background": {
+        "educational": [
+            {
+                "title": "Bachelor's Degree in Computer Science",
+                "years": "2023 - 2026",
+                "subtitle": "Haute École de la Province de Liège (HEPL) - Seraing",
+                "description": "Option : Application Development"
+            },
+            {
+                "title": "CESS – Belgian Higher Secondary Education Certificate",
+                "years": "2017 - 2023",
+                "subtitle": "Lycée Saint-Jacques - Liège",
+                "description": "General secondary education – Social Science & Computer Science option."
+            },
+            {
+                "title": "CEB – Belgian Basic Studies Certificate",
+                "years": "2011 - 2017",
+                "subtitle": "École communale fondamentale de Boncelles - Boncelles",
+                "description": "General primary education."
+            }
+        ],
+        "experience": [
+
+        ]
+    }
 }

@@ -51,6 +51,11 @@ a {
     text-decoration: none;
 }
 
+#educational-background, #experience-background {
+    opacity: 0;
+    animation: fadeIn 0.7s ease-in-out forwards;
+}
+
 .hidden {
     display: none !important;
 }

@@ -64,5 +64,37 @@ async function loadSkills() {
     }
 }
 
+export async function loadBackground(type) {
+    const container = document.getElementById(type + '-background-container');
+    const template = document.getElementById(type + '-background-template');
+
+    try {
+        const response = await fetch('./json/data.json');
+        const json = await response.json();
+
+        const backgroundContainer = json.background;
+        const items = getBackgroundItems(type, backgroundContainer);
+
+        if (items === null) throw new Error("Invalid type");
+
+        items.forEach(item => {
+            const timelineItem = template.content.cloneNode(true);
+
+            timelineItem.querySelector('timeline-item-title-container__title').textContent = item.title;
+            timelineItem.querySelector('timeline-item-title-container__years').textContent = item.years;
+            timelineItem.querySelector('timeline-item__subtitle').textContent = item.subtitle;
+            timelineItem.querySelector('timeline-item__description').textContent = item.description;
+
+            container.appendChild(item);
+        });
+    } catch (erreur) {
+        console.error("Loading Error :", erreur);
+    }
+}
+
+function getBackgroundItems(type, json) {
+    return type === 'educational' ? json.educational : type === 'experience' ? json.experience : null;
+}
+
 loadSkills();
 loadProjects();
