@@ -14,7 +14,6 @@ async function loadProjects() {
             card.querySelector('.project-logo').src = project.logo;
             card.querySelector('.project-title').textContent = project.title;
             card.querySelector('.project-description').textContent = project.description;
-            card.querySelector('.project-techno-button-link').href = project.link;
 
             const technoList = card.querySelector('.project-techno-list');
             project.technologies.forEach(tech => {
