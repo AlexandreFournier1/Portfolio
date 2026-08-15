@@ -75,7 +75,9 @@ async function loadBackground(type) {
 
         if (items === null) throw new Error("Invalid type");
 
-        container.innerHTML = '';
+        Array.from(container.children).forEach(child => {
+            if (child !== template) container.removeChild(child);
+        });
 
         items.forEach(item => {
             const timelineItem = template.content.cloneNode(true);
