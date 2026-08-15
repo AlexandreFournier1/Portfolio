@@ -9,7 +9,44 @@
                 { "name": "Dart", "icon": "./img/skills/dart-icon.png" },
                 { "name": "Flutter", "icon": "./img/skills/flutter-icon.png" },
                 { "name": "Firebase", "icon": "./img/skills/firebase-icon.png" }
-            ]
+            ],
+            "modal": {
+                "githubLink": "https://github.com/AlexandreFournier1/ScrollAndCook",
+                "sections": [
+                    {
+                        "icon": "./img/target.png",
+                        "title": "GOAL",
+                        "content": "The goal was to create a mobile application that helps users find meal ideas based on the ingredients they already have."
+                    },
+                    {
+                        "icon": "./img/settings.png",
+                        "title": "KEY FEATURES",
+                        "content": [
+                            "Recipe Catalog",
+                            "Recipe Search based on what's in the fridge",
+                            "Personal recipe catalog",
+                            "Recipe creation",
+                            "Social Media"
+                        ]
+                    },
+                    {
+                        "icon": "./img/database.png",
+                        "title": "TECHNICAL CHALLENGES",
+                        "content": ""
+                    },
+                    {
+                        "icon": "./img/book.png",
+                        "title": "WHAT I LEARNED",
+                        "content": "This project allowed me to improve my understanding of Flutter development, state management, API integration, and mobile application architecture."
+                    },
+                    {
+                        "icon": "./img/user.png",
+                        "title": "MY CONTRIBUTION",
+                        "details": "School Team Project — 2 developers",
+                        "content": ""
+                    }
+                ]
+            }
         },
         {
             "title": "Online Library",
@@ -23,7 +60,40 @@
                 { "name": "Node.js", "icon": "./img/skills/node-js-icon.png" },
                 { "name": "Nunjuck", "icon": "./img/skills/nunjuck-icon.png" },
                 { "name": "Sql lite", "icon": "./img/skills/sql-lite-icon.png" }
-            ]
+            ],
+            "modal": {
+                "githubLink": "https://github.com/AlexandreFournier1/ScrollAndCook",
+                "sections": [
+                    {
+                        "icon": "./img/target.png",
+                        "title": "GOAL",
+                        "content": ""
+                    },
+                    {
+                        "icon": "./img/settings.png",
+                        "title": "KEY FEATURES",
+                        "content": [
+                            ""
+                        ]
+                    },
+                    {
+                        "icon": "./img/database.png",
+                        "title": "TECHNICAL CHALLENGES",
+                        "content": ""
+                    },
+                    {
+                        "icon": "./img/book.png",
+                        "title": "WHAT I LEARNED",
+                        "content": ""
+                    },
+                    {
+                        "icon": "./img/user.png",
+                        "title": "MY CONTRIBUTION",
+                        "details": "School Team Project — 2 developers",
+                        "content": ""
+                    }
+                ]
+            }
         },
         {
             "title": "GeckoDex",
@@ -33,7 +103,40 @@
             "technologies": [
                 { "name": "C#", "icon": "./img/skills/csharp-icon.png" },
                 { "name": "WPF", "icon": "./img/skills/wpf-image.png" }
-            ]
+            ],
+            "modal": {
+                "githubLink": "https://github.com/AlexandreFournier1/ScrollAndCook",
+                "sections": [
+                    {
+                        "icon": "./img/target.png",
+                        "title": "GOAL",
+                        "content": ""
+                    },
+                    {
+                        "icon": "./img/settings.png",
+                        "title": "KEY FEATURES",
+                        "content": [
+                            ""
+                        ]
+                    },
+                    {
+                        "icon": "./img/database.png",
+                        "title": "TECHNICAL CHALLENGES",
+                        "content": ""
+                    },
+                    {
+                        "icon": "./img/book.png",
+                        "title": "WHAT I LEARNED",
+                        "content": ""
+                    },
+                    {
+                        "icon": "./img/user.png",
+                        "title": "MY CONTRIBUTION",
+                        "details": "School Individual Project — 1 developer",
+                        "content": ""
+                    }
+                ]
+            }
         },
         {
             "title": "Hospital Consultation Management Application",
@@ -48,7 +151,40 @@
                 { "name": "Vue.js", "icon": "./img/skills/vue-js-icon.png" },
                 { "name": "TypeScript", "icon": "./img/skills/typescript-icon.png" },
                 { "name": "SQL Server", "icon": "./img/skills/sql-server.png" }
-            ]
+            ],
+            "modal": {
+                "githubLink": "https://github.com/AlexandreFournier1/ScrollAndCook",
+                "sections": [
+                    {
+                        "icon": "./img/target.png",
+                        "title": "GOAL",
+                        "content": ""
+                    },
+                    {
+                        "icon": "./img/settings.png",
+                        "title": "KEY FEATURES",
+                        "content": [
+                            ""
+                        ]
+                    },
+                    {
+                        "icon": "./img/database.png",
+                        "title": "TECHNICAL CHALLENGES",
+                        "content": ""
+                    },
+                    {
+                        "icon": "./img/book.png",
+                        "title": "WHAT I LEARNED",
+                        "content": ""
+                    },
+                    {
+                        "icon": "./img/user.png",
+                        "title": "MY CONTRIBUTION",
+                        "details": "School Team Project — 2 developers",
+                        "content": ""
+                    }
+                ]
+            }
         },
         {
             "title": "Weasleys' Wizard Wheezes Plugin",
@@ -57,7 +193,40 @@
             "link": "",
             "technologies": [
                 { "name": "Java", "icon": "./img/skills/java-icon.png" }
-            ]
+            ],
+            "modal": {
+                "githubLink": "https://github.com/AlexandreFournier1/ScrollAndCook",
+                "sections": [
+                    {
+                        "icon": "./img/target.png",
+                        "title": "GOAL",
+                        "content": ""
+                    },
+                    {
+                        "icon": "./img/settings.png",
+                        "title": "KEY FEATURES",
+                        "content": [
+                            ""
+                        ]
+                    },
+                    {
+                        "icon": "./img/database.png",
+                        "title": "TECHNICAL CHALLENGES",
+                        "content": ""
+                    },
+                    {
+                        "icon": "./img/book.png",
+                        "title": "WHAT I LEARNED",
+                        "content": ""
+                    },
+                    {
+                        "icon": "./img/user.png",
+                        "title": "MY CONTRIBUTION",
+                        "details": "Individual Project — 1 developer",
+                        "content": ""
+                    }
+                ]
+            }
         },
         {
             "title": "Portfolio",
@@ -68,7 +237,40 @@
                 { "name": "HTML", "icon": "./img/skills/html-icon.png" },
                 { "name": "CSS", "icon": "./img/skills/css-icon.png" },
                 { "name": "JavaScript", "icon": "./img/skills/javascript-icon.png" }
-            ]
+            ],
+            "modal": {
+                "githubLink": "https://github.com/AlexandreFournier1/ScrollAndCook",
+                "sections": [
+                    {
+                        "icon": "./img/target.png",
+                        "title": "GOAL",
+                        "content": ""
+                    },
+                    {
+                        "icon": "./img/settings.png",
+                        "title": "KEY FEATURES",
+                        "content": [
+                            ""
+                        ]
+                    },
+                    {
+                        "icon": "./img/database.png",
+                        "title": "TECHNICAL CHALLENGES",
+                        "content": ""
+                    },
+                    {
+                        "icon": "./img/book.png",
+                        "title": "WHAT I LEARNED",
+                        "content": ""
+                    },
+                    {
+                        "icon": "./img/user.png",
+                        "title": "MY CONTRIBUTION",
+                        "details": "Individual Project — 1 developer",
+                        "content": ""
+                    }
+                ]
+            }
         },
         {
             "title": "Letter Game",
@@ -79,7 +281,40 @@
                 { "name": "HTML", "icon": "./img/skills/html-icon.png" },
                 { "name": "CSS", "icon": "./img/skills/css-icon.png" },
                 { "name": "JavaScript", "icon": "./img/skills/javascript-icon.png" }
-            ]
+            ],
+            "modal": {
+                "githubLink": "https://github.com/AlexandreFournier1/ScrollAndCook",
+                "sections": [
+                    {
+                        "icon": "./img/target.png",
+                        "title": "GOAL",
+                        "content": ""
+                    },
+                    {
+                        "icon": "./img/settings.png",
+                        "title": "KEY FEATURES",
+                        "content": [
+                            ""
+                        ]
+                    },
+                    {
+                        "icon": "./img/database.png",
+                        "title": "TECHNICAL CHALLENGES",
+                        "content": ""
+                    },
+                    {
+                        "icon": "./img/book.png",
+                        "title": "WHAT I LEARNED",
+                        "content": ""
+                    },
+                    {
+                        "icon": "./img/user.png",
+                        "title": "MY CONTRIBUTION",
+                        "details": "School Individual Project — 1 developer",
+                        "content": ""
+                    }
+                ]
+            }
         }
     ],
     "skills": [

@@ -29,6 +29,10 @@ async function loadProjects() {
                 technoList.appendChild(iconContainer);
             });
 
+            card.querySelector('.project-view-details-link').addEventListener('click', () => {
+                populateProjectModal(project);
+            });
+
             container.appendChild(card);
         });
 
@@ -115,6 +119,58 @@ async function loadBackground(type) {
     } catch (erreur) {
         console.error("Loading Error :", erreur);
     }
+}
+
+function populateProjectModal(project) {
+    const modal = document.getElementById('project-modal');
+    const sectionTemplate = document.getElementById('project-modal-section-template');
+    const sectionsContainer = modal.querySelector('.modal-content-sections');
+    const modalData = project.modal || {};
+
+    modal.querySelector('.project-title').textContent = project.title;
+
+    const githubLink = modal.querySelector('.modal-content-header-link');
+    if (modalData.githubLink) {
+        githubLink.href = modalData.githubLink;
+        githubLink.classList.remove('hidden');
+    } else {
+        githubLink.classList.add('hidden');
+    }
+
+    sectionsContainer.innerHTML = '';
+
+    (modalData.sections || []).forEach(section => {
+        const sectionNode = sectionTemplate.content.cloneNode(true);
+
+        sectionNode.querySelector('.project-subtitle-icon').src = section.icon;
+        sectionNode.querySelector('.project-subtitle-text').textContent = section.title;
+
+        const detailsElement = sectionNode.querySelector('.project-subtitle-details');
+        if (section.details) {
+            detailsElement.textContent = section.details;
+        } else {
+            detailsElement.remove();
+        }
+
+        const textContainer = sectionNode.querySelector('.project-text-container');
+        if (Array.isArray(section.content)) {
+            const list = document.createElement('ul');
+            list.classList.add('project-key-features');
+            section.content.forEach(line => {
+                const listItem = document.createElement('li');
+                listItem.textContent = line;
+                list.appendChild(listItem);
+            });
+            textContainer.appendChild(list);
+        } else {
+            const text = document.createElement('p');
+            text.classList.add('project-text');
+            text.textContent = section.content;
+            textContainer.appendChild(text);
+        }
+
+        sectionsContainer.appendChild(sectionNode);
+    });
 }
 
 function getBackgroundItems(type, json) {

@@ -79,6 +79,7 @@
                     </div>
                     <div class="main-container__info-section-project-card-techno-wrapper row-display">
                         <div class="main-container__info-section-project-card-techno-container project-techno-list row-display"></div>
+                        <a href="#project-modal" class="project-view-details-link hover-cursor">View Details</a>
                     </div>
                 </div>
             </template>
@@ -140,6 +141,28 @@
                 <span class="arrow">→</span>
             </section>
         </section>
+
+        <div id="project-modal" class="modal">
+            <div class="modal-content">
+                <div class="modal-content-header">
+                    <h1 class="project-title"></h1>
+                    <div>
+                        <a href="" class="modal-content-header-link hidden" target="_blank">Github</a>
+                        <a href="#" class="close">&times;</a>
+                    </div>
+                </div>
+                <div class="modal-content-sections"></div>
+            </div>
+        </div>
+
+        <template id="project-modal-section-template">
+            <h3 class="project-subtitle">
+                <img class="project-subtitle-icon" />
+                <p class="project-subtitle-text"></p>
+            </h3>
+            <p class="project-subtitle-details"></p>
+            <div class="project-text-container"></div>
+        </template>
     </main>
     <footer class="footer-container row-display" id="contact">
         <section class="footer-container__section-wrapper">
