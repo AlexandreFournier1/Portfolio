@@ -265,7 +265,8 @@ a {
 }
 
 .main-container__info-section-project-card-techno-container {
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(3, auto);
     justify-content: start;
     gap: 16px;
 }

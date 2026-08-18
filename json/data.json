@@ -16,34 +16,35 @@
                     {
                         "icon": "./img/target.png",
                         "title": "GOAL",
-                        "content": "The goal was to create a mobile application that helps users find meal ideas based on the ingredients they already have."
+                        "content": "The goal was to create a mobile application that helps users find meal ideas based on the ingredients they already have. The application was designed to make recipe discovery more convenient while encouraging users to share and discover new recipes within a community."
                     },
                     {
                         "icon": "./img/settings.png",
                         "title": "KEY FEATURES",
                         "content": [
                             "Recipe Catalog",
-                            "Recipe Search based on what's in the fridge",
+                            "Recipe Search based on available ingredients",
                             "Personal recipe catalog",
-                            "Recipe creation",
-                            "Social Media"
+                            "Recipe Creation and Management",
+                            "Social Media and User Interactions",
+                            "User Profiles and Messaging"
                         ]
                     },
                     {
                         "icon": "./img/database.png",
                         "title": "TECHNICAL CHALLENGES",
-                        "content": ""
+                        "content": "One of the main challenges was learning a new technology and programming language independently. Since this was my first project using Flutter and Dart, I had to quickly become familiar with the framework and its development approach. Another challenge was implementing the social features of the application. Managing user interactions, shared recipes, comments, likes, messaging, and data synchronization introduced the complexity of working with real-time data and required careful consideration of how information was stored and updated across the application."
                     },
                     {
                         "icon": "./img/book.png",
                         "title": "WHAT I LEARNED",
-                        "content": "This project allowed me to improve my understanding of Flutter development, state management, API integration, and mobile application architecture."
+                        "content": "This project allowed me to learn how to develop mobile applications using Flutter and Dart, while also discovering Firebase for authentication, data storage, and real-time synchronization. It also taught me how to take a project from an initial idea to a functional application, including designing the application structure, implementing its features, managing data, and solving technical issues throughout the development process. Working on the project as a team also helped me improve my collaboration and development workflow."
                     },
                     {
                         "icon": "./img/user.png",
                         "title": "MY CONTRIBUTION",
                         "details": "School Team Project — 2 developers",
-                        "content": ""
+                        "content": "I contributed to the development and the design of the mobile application, including the implementation of core features, user interactions, data management, and the integration of Firebase services."
                     }
                 ]
             }
@@ -62,35 +63,40 @@
                 { "name": "Sql lite", "icon": "./img/skills/sql-lite-icon.png" }
             ],
             "modal": {
-                "githubLink": "https://github.com/AlexandreFournier1/ScrollAndCook",
+                "githubLink": "https://github.com/AlexandreFournier1/OnlineLibrary",
                 "sections": [
                     {
                         "icon": "./img/target.png",
                         "title": "GOAL",
-                        "content": ""
+                        "content": "The goal was to develop a complete web application simulating a digital library, allowing users to discover, borrow, and manage books through an intuitive online platform. This project was also an opportunity to apply the fundamentals of web development to a larger application while learning how to work with APIs and server-side technologies."
                     },
                     {
                         "icon": "./img/settings.png",
                         "title": "KEY FEATURES",
                         "content": [
-                            ""
+                            "Book Catalog organized by category",
+                            "Book Search and Detailed Information",
+                            "Trending and Recently Added Books",
+                            "Shopping Cart for Borrowing",
+                            "Book Borrowing with a Time Limit",
+                            "User Accounts and Personal Loan Management"
                         ]
                     },
                     {
                         "icon": "./img/database.png",
                         "title": "TECHNICAL CHALLENGES",
-                        "content": ""
+                        "content": "One of the main challenges was implementing the authentication system, including user registration, login, session management, and restricting access to certain pages depending on the user's authentication status. Another challenge was working with the limitations of the external book API. Some of the information required by the application was not directly available, such as recently released books, so we had to find alternative solutions by processing and comparing the available data, including publication dates."
                     },
                     {
                         "icon": "./img/book.png",
                         "title": "WHAT I LEARNED",
-                        "content": ""
+                        "content": "This project was my first major web development project and allowed me to move beyond basic front-end development. I learned how to build a server-side web application using Node.js and Express, consume and process data from APIs, and use Nunjucks for server-side templating. I also gained a better understanding of authentication, sessions, routing, and database management with SQLite."
                     },
                     {
                         "icon": "./img/user.png",
                         "title": "MY CONTRIBUTION",
                         "details": "School Team Project — 2 developers",
-                        "content": ""
+                        "content": "I contributed to the development of the web application, including the implementation of the book catalog, borrowing system, user account management, and integration with the external book API."
                     }
                 ]
             }
@@ -105,35 +111,40 @@
                 { "name": "WPF", "icon": "./img/skills/wpf-image.png" }
             ],
             "modal": {
-                "githubLink": "https://github.com/AlexandreFournier1/ScrollAndCook",
+                "githubLink": "https://github.com/AlexandreFournier1/GeckoDex",
                 "sections": [
                     {
                         "icon": "./img/target.png",
                         "title": "GOAL",
-                        "content": ""
+                        "content": "The goal was to create a desktop companion application for ARK: Survival Evolved players, helping them manage dinosaur taming and breeding sessions. The application provides detailed information about each creature and calculates the resources required based on its level, diet, and the resources being used."
                     },
                     {
                         "icon": "./img/settings.png",
                         "title": "KEY FEATURES",
                         "content": [
-                            ""
+                            "Dinosaur Catalog with Detailed Information",
+                            "Taming and Breeding Resource Calculations",
+                            "Level and Diet-Based Calculations",
+                            "Real-Time Taming and Breeding Timers",
+                            "User Account Management",
+                            "Tracking of Multiple Ongoing Sessions"
                         ]
                     },
                     {
                         "icon": "./img/database.png",
                         "title": "TECHNICAL CHALLENGES",
-                        "content": ""
+                        "content": "One of the main challenges was learning WPF and its architecture largely by myself, as this was my first major C# and .NET project. Understanding data binding and keeping the user interface synchronized with the application's data required me to explore concepts that were new to me. Another important challenge was designing the application's business logic and class structure before development, particularly for the calculations related to taming, breeding, creature levels, and resource requirements."
                     },
                     {
                         "icon": "./img/book.png",
                         "title": "WHAT I LEARNED",
-                        "content": ""
+                        "content": "This project significantly improved my understanding of C# and .NET, particularly through the use of WPF and data binding. I learned how to structure an application around well-defined business classes and why analyzing and designing the application's architecture before implementation is important. Working independently also strengthened my ability to learn new technologies, research solutions, and make technical decisions throughout the development process."
                     },
                     {
                         "icon": "./img/user.png",
                         "title": "MY CONTRIBUTION",
                         "details": "School Individual Project — 1 developer",
-                        "content": ""
+                        "content": "I designed and developed the entire application independently, from the initial analysis and architecture to the user interface, business logic, calculations, timers, and account management."
                     }
                 ]
             }
@@ -153,35 +164,42 @@
                 { "name": "SQL Server", "icon": "./img/skills/sql-server.png" }
             ],
             "modal": {
-                "githubLink": "https://github.com/AlexandreFournier1/ScrollAndCook",
+                "githubLink": "https://github.com/AlexandreFournier1/ProjetDACSC2025",
                 "sections": [
                     {
                         "icon": "./img/target.png",
                         "title": "GOAL",
-                        "content": ""
+                        "content": "The goal was to design and develop a complete healthcare management ecosystem capable of handling patient records, appointment scheduling, medical consultations, and medical reports. The project was designed to reproduce the complexity of a real-world software system by combining multiple applications, services, clients, and communication protocols."
                     },
                     {
                         "icon": "./img/settings.png",
                         "title": "KEY FEATURES",
                         "content": [
-                            ""
+                            "Patient and Doctor Management",
+                            "Appointment Scheduling and Management",
+                            "Medical Consultation Management",
+                            "Medical Report Creation and Management",
+                            "Multi-Platform Applications",
+                            "Client-Server Communication",
+                            "Secure Medical Data Transmission",
+                            "Web API and Vue.js Frontend"
                         ]
                     },
                     {
                         "icon": "./img/database.png",
                         "title": "TECHNICAL CHALLENGES",
-                        "content": ""
+                        "content": "One of the biggest challenges was designing and integrating a multi-layered client-server architecture involving several technologies and applications. The project required communication between C/C++ socket servers, Qt clients, Java services, a web API, and a Vue.js frontend, while sharing data through a centralized database. Implementing secure communication and cryptographic mechanisms for the medical reporting system was another major challenge. I also had to learn new technologies such as TypeScript and Vue.js while working on a large and interconnected codebase."
                     },
                     {
                         "icon": "./img/book.png",
                         "title": "WHAT I LEARNED",
-                        "content": ""
+                        "content": "This project gave me a much deeper understanding of how complex software systems are designed and developed in a professional environment. I gained practical experience with client-server architecture, multi-threaded applications, network communication, APIs, database access, and cryptography. Working across several languages and technologies also taught me how different components of a software ecosystem can communicate and work together while remaining separated into distinct responsibilities."
                     },
                     {
                         "icon": "./img/user.png",
                         "title": "MY CONTRIBUTION",
                         "details": "School Team Project — 2 developers",
-                        "content": ""
+                        "content": "I contributed to the development of several components of the ecosystem, including client-server communication, database access, Java services, and the web application. I also participated in the implementation of the secure medical reporting system and the integration of the different components."
                     }
                 ]
             }
@@ -195,123 +213,39 @@
                 { "name": "Java", "icon": "./img/skills/java-icon.png" }
             ],
             "modal": {
-                "githubLink": "https://github.com/AlexandreFournier1/ScrollAndCook",
                 "sections": [
                     {
                         "icon": "./img/target.png",
                         "title": "GOAL",
-                        "content": ""
+                        "content": "The goal was to develop a custom Minecraft plugin for a Harry Potter role-playing server, introducing a collection of magical sweets items inspired by Weasleys' Wizard Wheezes. The plugin was designed to create interactive and entertaining gameplay experiences for a server community of around 100 to 200 players."
                     },
                     {
                         "icon": "./img/settings.png",
                         "title": "KEY FEATURES",
                         "content": [
-                            ""
+                            "Custom Magical Sweets Items",
+                            "Individual Behavior and Mechanics for Each Item",
+                            "Custom Minecraft Gameplay Interactions",
+                            "Integration with Server-Specific Libraries",
+                            "Interactive In-Game Effects",
+                            "Support for a Multiplayer Role-Playing Environment"
                         ]
                     },
                     {
                         "icon": "./img/database.png",
                         "title": "TECHNICAL CHALLENGES",
-                        "content": ""
+                        "content": "The main challenge was translating the behavior of a piece of code into an interactive in-game mechanic. Each magical sweets had to be individually designed and implemented while working within Minecraft's existing mechanics and the server's custom libraries. Since this was my first object-oriented project, I also had to learn how to structure the code around classes and objects while discovering Java and the Minecraft plugin ecosystem entirely on my own."
                     },
                     {
                         "icon": "./img/book.png",
                         "title": "WHAT I LEARNED",
-                        "content": ""
+                        "content": "This project was my first experience with Java and object-oriented programming, which I learned entirely through practice before studying these concepts at school. It taught me the fundamentals of classes, objects, inheritance, and code organization while also introducing me to event-driven programming and the use of external and custom libraries. More importantly, it taught me how to independently learn a new technology and turn an idea into a working feature."
                     },
                     {
                         "icon": "./img/user.png",
                         "title": "MY CONTRIBUTION",
                         "details": "Individual Project — 1 developer",
-                        "content": ""
-                    }
-                ]
-            }
-        },
-        {
-            "title": "Portfolio",
-            "logo": "./img/portfolio-icon.png",
-            "description": "This portfolio showcases my projects, technical skills, and educational background through a modern and responsive interface. Throughout its development, I placed a strong emphasis on code reusability by designing reusable components and maintaining a clean, scalable architecture to ensure consistency and ease of maintenance.",
-            "link": "",
-            "technologies": [
-                { "name": "HTML", "icon": "./img/skills/html-icon.png" },
-                { "name": "CSS", "icon": "./img/skills/css-icon.png" },
-                { "name": "JavaScript", "icon": "./img/skills/javascript-icon.png" }
-            ],
-            "modal": {
-                "githubLink": "https://github.com/AlexandreFournier1/ScrollAndCook",
-                "sections": [
-                    {
-                        "icon": "./img/target.png",
-                        "title": "GOAL",
-                        "content": ""
-                    },
-                    {
-                        "icon": "./img/settings.png",
-                        "title": "KEY FEATURES",
-                        "content": [
-                            ""
-                        ]
-                    },
-                    {
-                        "icon": "./img/database.png",
-                        "title": "TECHNICAL CHALLENGES",
-                        "content": ""
-                    },
-                    {
-                        "icon": "./img/book.png",
-                        "title": "WHAT I LEARNED",
-                        "content": ""
-                    },
-                    {
-                        "icon": "./img/user.png",
-                        "title": "MY CONTRIBUTION",
-                        "details": "Individual Project — 1 developer",
-                        "content": ""
-                    }
-                ]
-            }
-        },
-        {
-            "title": "Letter Game",
-            "logo": "./img/letter-game-image.png",
-            "description": "Letter Game is an educational web application designed to help users improve their spelling and vocabulary through interactive gameplay. Players are presented with an image and must drag and drop letters to correctly form the corresponding word, creating a fun and engaging learning experience.",
-            "link": "",
-            "technologies": [
-                { "name": "HTML", "icon": "./img/skills/html-icon.png" },
-                { "name": "CSS", "icon": "./img/skills/css-icon.png" },
-                { "name": "JavaScript", "icon": "./img/skills/javascript-icon.png" }
-            ],
-            "modal": {
-                "githubLink": "https://github.com/AlexandreFournier1/ScrollAndCook",
-                "sections": [
-                    {
-                        "icon": "./img/target.png",
-                        "title": "GOAL",
-                        "content": ""
-                    },
-                    {
-                        "icon": "./img/settings.png",
-                        "title": "KEY FEATURES",
-                        "content": [
-                            ""
-                        ]
-                    },
-                    {
-                        "icon": "./img/database.png",
-                        "title": "TECHNICAL CHALLENGES",
-                        "content": ""
-                    },
-                    {
-                        "icon": "./img/book.png",
-                        "title": "WHAT I LEARNED",
-                        "content": ""
-                    },
-                    {
-                        "icon": "./img/user.png",
-                        "title": "MY CONTRIBUTION",
-                        "details": "School Individual Project — 1 developer",
-                        "content": ""
+                        "content": "I designed and developed the entire plugin independently, from the initial concept and object-oriented architecture to the implementation of each prank, gameplay mechanic, and integration with the server's custom libraries."
                     }
                 ]
             }
@@ -431,21 +365,22 @@
         "experience": [
             {
                 "title": "EVS Broadcast Equipment",
-                "years": "Jul. 2026 - Sep. 2026",
+                "years": "Jul. 2026 - now",
                 "subtitle": "Software Engineer",
-                "tags": ["C# (.NET)", "Blazor", "HTML/CSS", ".NET Aspire", "Azure DevOps"],
+                "tags": ["C# (.NET)", "Blazor", "HTML/CSS", ".NET Aspire", "Microsoft Azure"],
                 "description": [
                     "Maintained and improved Blazor web application delivered during final-year internship.",
                     "Developed Blazor admin interface to manage user and manager access and right.",
                     "Maintained and improved UI Library NuGet Packages.",
-                    "Deployed to UAT environment."
+                    "Deployed to UAT environment.",
+                    "Analyse SAP Signavio Workflow."
                 ]
             },
             {
                 "title": "EVS Broadcast Equipment",
                 "years": "Feb. 2026 – May 2026",
                 "subtitle": "Final-year internship",
-                "tags": ["C# (.NET)", "Blazor", "HTML/CSS", ".NET Aspire", "Azure DevOps", "Software Analysis"],
+                "tags": ["C# (.NET)", "Blazor", "HTML/CSS", ".NET Aspire", "Microsoft Azure", "Software Analysis"],
                 "description": [
                     "Designed and developed a Blazor web application to manage user and access right.",
                     "Developed a custom UI Library NuGet Package composed of reusable component for whole EVS applications.",

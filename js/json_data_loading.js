@@ -16,6 +16,7 @@ async function loadProjects() {
             card.querySelector('.project-description').textContent = project.description;
 
             const technoList = card.querySelector('.project-techno-list');
+
             project.technologies.forEach(tech => {
                 const iconContainer = document.createElement('div');
                 iconContainer.classList.add('project-techno-icon-container');
