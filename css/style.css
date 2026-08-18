@@ -461,7 +461,7 @@ a {
     display: flex;
     align-items: flex-start;
     justify-content: center;
-    padding-top: 100px;
+    padding-top: 10px;
     background: rgba(0,0,0,0.6);
     border-radius: 5px;
     opacity: 0;
@@ -698,5 +698,32 @@ a {
 
     .timeline-item {
         padding-inline: 26px 8px;
+    }
+
+    .timeline-item-title-container__title {
+        font-size: 17px;
+    }
+
+    .timeline-item-title-container__years {
+        font-size: 12px;
+    }
+
+    .timeline-item__subtitle {
+        font-size: 12px;
+    }
+
+    .timeline-item__description,
+    .timeline-item__description-list {
+        font-size: 12px;
+    }
+
+    .timeline-item_tags {
+        flex-wrap: wrap;
+        gap: 6px;
+    }
+
+    .timeline-item_tag {
+        padding: 3px 6px;
+        font-size: 11px;
     }
 }
