@@ -22,7 +22,11 @@ function initCarousel(cardsContainer) {
         cardsContainer.scrollLeft = setWidth;
     }
 
-    window.addEventListener('load', initLoop);
+    if (document.readyState === 'complete') {
+        initLoop();
+    } else {
+        window.addEventListener('load', initLoop);
+    }
     window.addEventListener('resize', initLoop);
 
     let isPressed = false;

@@ -50,6 +50,118 @@
             }
         },
         {
+            "title": "EVS - User Access Management",
+            "logo": "./img/evs-image.png",
+            "description": "User Access Management (UAM) is a web application developed during my internship and student job at EVS to manage user access, roles, permissions, companies, and applications within an applications ecosystem. The project aimed to replace a legacy solution tightly coupled to Microsoft Dynamics 365 with a dedicated and scalable access management system.",
+            "link": "",
+            "technologies": [
+                { "name": "C#", "icon": "./img/skills/csharp-icon.png" },
+                { "name": "HTMLS", "icon": "./img/skills/html-icon.png" },
+                { "name": "CSS", "icon": "./img/skills/css-icon.png" },
+                { "name": "Blazor", "icon": "./img/skills/blazor-icon.png" },
+                { "name": "Entity Framework", "icon": "./img/skills/entity-framework-icon.png" },
+                { "name": "SQL Server", "icon": "./img/skills/sql-server.png" },
+                { "name": "Azure DevOps", "icon": "./img/skills/azure-devops-icon.png" },
+                { "name": ".NET Aspire", "icon": "./img/skills/dotnet-aspire-icon.png" },
+                { "name": "Podman", "icon": "./img/skills/podman-icon.png" },
+                { "name": "Keycloak", "icon": "./img/skills/keycloak-icon.png" },
+                { "name": "Bare.ID", "icon": "./img/skills/bareid-icon.png" }
+            ],
+            "modal": {
+                "sections": [
+                    {
+                        "icon": "./img/target.png",
+                        "title": "GOAL",
+                        "content": "The goal was to contribute to the redesign of EVS's User Access Management module by separating access management from the legacy CRM-based solution. The new system provides a dedicated database and a scalable architecture for managing users, companies, applications, roles, permissions, and access requests within the applications ecosystem."
+                    },
+                    {
+                        "icon": "./img/settings.png",
+                        "title": "KEY FEATURES",
+                        "content": [
+                            "Company and application access management",
+                            "User and role management",
+                            "Access request and approval workflow",
+                            "User, company and application administration",
+                            "Setup and partner company management",
+                            "Search and data filtering",
+                            "User lifecycle management",
+                            "Integration with Bare.ID/Microsoft Entra for account management"
+                        ]
+                    },
+                    {
+                        "icon": "./img/database.png",
+                        "title": "TECHNICAL CHALLENGES",
+                        "content": "One of the main challenges was understanding and working with a complex business domain involving users, companies, applications, roles and access relationships. I also had to design a maintainable application architecture using services, dependency injection, Entity Framework and DTO mapping. Another challenge was integrating external authentication services such as Bare.ID or Microsoft Entra."
+                    },
+                    {
+                        "icon": "./img/book.png",
+                        "title": "WHAT I LEARNED",
+                        "content": "This project gave me my first experience working on a professional software project and helped me understand how development is organized in an enterprise environment. I improved my knowledge of C#, .NET and Blazor while learning about dependency injection, Entity Framework, DTOs, database modeling, authentication, API integration and application architecture. I also gained experience working with a real backlog, existing business requirements and an established development team."
+                    },
+                    {
+                        "icon": "./img/user.png",
+                        "title": "MY CONTRIBUTION",
+                        "details": "Team Project — 3 developers",
+                        "content": "During my internship and student job at EVS, I contributed to the development of the new UAM application. I implemented several core features, including company selection, access requests, user management, setup management and partner company management. I also designed the associated services, database interactions and UI components, while taking into account performance, validation, security and maintainability."
+                    }
+                ]
+            }
+        },
+        {
+            "title": "EVS - UI Library",
+            "logo": "./img/evs-image.png",
+            "description": "EVS - UI Library is a reusable web component library developed during my internship and my student job at EVS. It provides a collection of standardized and customizable UI components shared across the team's web applications, ensuring a consistent user experience while improving development efficiency.",
+            "link": "",
+            "technologies": [
+                { "name": "C#", "icon": "./img/skills/csharp-icon.png" },
+                { "name": "HTMLS", "icon": "./img/skills/html-icon.png" },
+                { "name": "CSS", "icon": "./img/skills/css-icon.png" },
+                { "name": "JavaScript", "icon": "./img/skills/javascript-icon.png" },
+                { "name": "Blazor", "icon": "./img/skills/blazor-icon.png" },
+                { "name": "NuGet", "icon": "./img/skills/nuget-icon.png" }
+            ],
+            "modal": {
+                "sections": [
+                    {
+                        "icon": "./img/target.png",
+                        "title": "GOAL",
+                        "content": "The goal was to create a reusable UI component library that could be shared across the different web applications developed by the team. The library provides standardized components to ensure visual consistency, reduce code duplication and simplify the development of future applications."
+                    },
+                    {
+                        "icon": "./img/settings.png",
+                        "title": "KEY FEATURES",
+                        "content": [
+                            "Rich Text Editor",
+                            "Info Banner and Info Card",
+                            "Custom Buttons",
+                            "Text Input and Search Bar",
+                            "EVS Header and Footer",
+                            "Modal Dialogs",
+                            "Navigation Bar",
+                            "...",
+                            "Many Others Reusable and Customizable UI Components"
+                        ]
+                    },
+                    {
+                        "icon": "./img/database.png",
+                        "title": "TECHNICAL CHALLENGES",
+                        "content": "One of the main challenges was designing components that were reusable enough to meet the needs of different applications while remaining simple to integrate and customize. I also had to pay close attention to component behavior, responsiveness, styling and user experience. Another important aspect was ensuring that the library could be packaged and distributed as NuGet packages so that it could be easily integrated into other projects."
+                    },
+                    {
+                        "icon": "./img/book.png",
+                        "title": "WHAT I LEARNED",
+                        "content": "This project greatly improved my web development and UI design skills. I learned how to design reusable and maintainable components with Blazor, HTML, CSS and JavaScript while paying greater attention to consistency and user experience. I also gained a better understanding of component libraries, package distribution and the importance of designing software with reusability in mind."
+                    },
+                    {
+                        "icon": "./img/user.png",
+                        "title": "MY CONTRIBUTION",
+                        "details": "Team Project — 4 developers",
+                        "content": "During my internship and student job at EVS, I contributed to the development of the shared UI library by designing and implementing several reusable components. I worked on both their visual design and their behavior to ensure they could be reused consistently across the team's applications."
+                    }
+                ]
+            }
+        },
+        {
             "title": "Online Library",
             "logo": "./img/online-library-image.png",
             "description": "Online Library is a web application that simulates the experience of a digital library. Users can browse books across various categories, add them to a borrowing cart, and manage their loans while respecting borrowing deadlines, offering a realistic and intuitive library management system.",
