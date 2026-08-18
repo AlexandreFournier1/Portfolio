@@ -370,6 +370,7 @@ a {
     border: 1px var(--tags-border-color) solid;
     border-radius: 10px;
     background-color: var(--tags-background-color) !important;
+    font-size: 14px;
 }
 
 .timeline-item-title-container {
@@ -383,10 +384,14 @@ a {
 .timeline-item-title-container__title {
     font-size: 20px;
     margin: 0px;
+    flex: 1 1 auto;
+    min-width: 0;
 }
 
 .timeline-item-title-container__years {
     margin: 0px;
+    flex-shrink: 0;
+    white-space: nowrap;
 }
 
 .timeline-item__subtitle {
