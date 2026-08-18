@@ -485,7 +485,9 @@
                     "Developed Blazor admin interface to manage user and manager access and right.",
                     "Maintained and improved UI Library NuGet Packages.",
                     "Deployed to UAT environment.",
-                    "Analyse SAP Signavio Workflow."
+                    "Maintained and improved Blazor web application related to customer assistance following to UAT feedback.",
+                    "Updated and migrated several applications from .NET 7 to .NET 10.",
+                    "Analysed SAP Signavio Workflow."
                 ]
             },
             {
