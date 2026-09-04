@@ -365,16 +365,8 @@
     ],
     "skills": [
         {
-            "logo": "./img/skills/c-icon.png",
-            "stars": "./img/stars/3-stars.png"
-        },
-        {
             "logo": "./img/skills/csharp-icon.png",
             "stars": "./img/stars/4-stars.png"
-        },
-        {
-            "logo": "./img/skills/cplusplus-icon.png",
-            "stars": "./img/stars/1-stars.png"
         },
         {
             "logo": "./img/skills/html-icon.png",
@@ -385,12 +377,32 @@
             "stars": "./img/stars/4-stars.png"
         },
         {
+            "logo": "./img/skills/blazor-icon.png",
+            "stars": "./img/stars/4-stars.png"
+        },
+        {
+            "logo": "./img/skills/entity-framework-icon.png",
+            "stars": "./img/stars/4-stars.png"
+        },
+        {
+            "logo": "./img/skills/sql-icon.png",
+            "stars": "./img/stars/4-stars.png"
+        },
+        {
+            "logo": "./img/skills/git-icon.png",
+            "stars": "./img/stars/4-stars.png"
+        },
+        {
+            "logo": "./img/skills/c-icon.png",
+            "stars": "./img/stars/3-stars.png"
+        },
+        {
             "logo": "./img/skills/javascript-icon.png",
             "stars": "./img/stars/3-stars.png"
         },
         {
-            "logo": "./img/skills/typescript-icon.png",
-            "stars": "./img/stars/2-stars.png"
+            "logo": "./img/skills/node-js-icon.png",
+            "stars": "./img/stars/3-stars.png"
         },
         {
             "logo": "./img/skills/java-icon.png",
@@ -401,56 +413,52 @@
             "stars": "./img/stars/3-stars.png"
         },
         {
-            "logo": "./img/skills/blazor-icon.png",
-            "stars": "./img/stars/4-stars.png"
-        },
-        {
-            "logo": "./img/skills/wpf-image.png",
-            "stars": "./img/stars/2-stars.png"
-        },
-        {
             "logo": "./img/skills/flutter-icon.png",
             "stars": "./img/stars/3-stars.png"
-        },
-        {
-            "logo": "./img/skills/entity-framework-icon.png",
-            "stars": "./img/stars/4-stars.png"
-        },
-        {
-            "logo": "./img/skills/node-js-icon.png",
-            "stars": "./img/stars/3-stars.png"
-        },
-        {
-            "logo": "./img/skills/vue-js-icon.png",
-            "stars": "./img/stars/2-stars.png"
-        },
-        {
-            "logo": "./img/skills/sql-icon.png",
-            "stars": "./img/stars/4-stars.png"
-        },
-        {
-            "logo": "./img/skills/sql-server.png",
-            "stars": "./img/stars/3-stars.png"
-        },
-        {
-            "logo": "./img/skills/sql-lite-icon.png",
-            "stars": "./img/stars/2-stars.png"
         },
         {
             "logo": "./img/skills/firebase-icon.png",
             "stars": "./img/stars/3-stars.png"
         },
         {
-            "logo": "./img/skills/git-icon.png",
-            "stars": "./img/stars/4-stars.png"
+            "logo": "./img/skills/sql-server.png",
+            "stars": "./img/stars/3-stars.png"
         },
         {
             "logo": "./img/skills/azure-devops-icon.png",
             "stars": "./img/stars/3-stars.png"
         },
         {
+            "logo": "./img/skills/azure-icon.png",
+            "stars": "./img/stars/3-stars.png"
+        },
+        {
             "logo": "./img/skills/dotnet-aspire-icon.png",
             "stars": "./img/stars/3-stars.png"
+        },
+        {
+            "logo": "./img/skills/podman-icon.png",
+            "stars": "./img/stars/3-stars.png"
+        },
+        {
+            "logo": "./img/skills/typescript-icon.png",
+            "stars": "./img/stars/2-stars.png"
+        },
+        {
+            "logo": "./img/skills/vue-js-icon.png",
+            "stars": "./img/stars/2-stars.png"
+        },
+        {
+            "logo": "./img/skills/wpf-image.png",
+            "stars": "./img/stars/2-stars.png"
+        },
+        {
+            "logo": "./img/skills/sql-lite-icon.png",
+            "stars": "./img/stars/2-stars.png"
+        },
+        {
+            "logo": "./img/skills/cplusplus-icon.png",
+            "stars": "./img/stars/1-stars.png"
         }
     ],
     "background": {
@@ -479,26 +487,30 @@
                 "title": "EVS Broadcast Equipment",
                 "years": "Jul. 2026 - now",
                 "subtitle": "Software Engineer",
-                "tags": ["C# (.NET)", "Blazor", "HTML/CSS", ".NET Aspire", "Microsoft Azure"],
+                "tags": ["C# (.NET)", "Blazor", "HTML/CSS", ".NET Aspire", "Microsoft Azure", "EF Core"],
                 "description": [
                     "Maintained and improved Blazor web application delivered during final-year internship.",
                     "Developed Blazor admin interface to manage user and manager access and right.",
                     "Maintained and improved UI Library NuGet Packages.",
+                    "Managed project & sprint using Azure DevOps following Agile methodology.",
                     "Deployed to UAT environment.",
-                    "Maintained and improved Blazor web application related to customer assistance following to UAT feedback.",
-                    "Updated and migrated several applications from .NET 7 to .NET 10.",
-                    "Analysed SAP Signavio Workflow."
+                    "Wrote functional documentation with Confluence.",
+                    "Maintained and upgraded a user ticket management application built with Blazor (.NET) and Entity Framework.",
+                    "Updated and migrated several applications (+ Microsoft Azure App Services) from .NET 8 to .NET 10.",
+                    "Analysed SAP Signavio Process Governance workflow project."
                 ]
             },
             {
                 "title": "EVS Broadcast Equipment",
                 "years": "Feb. 2026 – May 2026",
                 "subtitle": "Final-year internship",
-                "tags": ["C# (.NET)", "Blazor", "HTML/CSS", ".NET Aspire", "Microsoft Azure", "Software Analysis"],
+                "tags": ["C# (.NET)", "Blazor", "HTML/CSS", ".NET Aspire", "Microsoft Azure", "EF Core", "Software Analysis"],
                 "description": [
+                    "Analysed and designed SQL Server database.",
+                    "Managed project & sprint using Azure DevOps following Agile methodology.",
                     "Designed and developed a Blazor web application to manage user and access right.",
                     "Developed a custom UI Library NuGet Package composed of reusable component for whole EVS applications.",
-                    "Created and managed custom local environment with .NET Aspire.",
+                    "Created and managed custom local environment with .NET Aspire. & Podman",
                     "Implemented different authentication solution depending on type of users. Using Microsoft Entra and Bare.ID.",
                     "Designed a maintanable and scalable architecture."
                 ]
@@ -514,8 +526,11 @@
                 "title": "Minecraft Server \"Le Banquet du Sorcier\" Community",
                 "years": "2023 - 2024",
                 "subtitle": "Software Engineer - Java",
-                "tags": ["Java"],
-                "description": "Developed a custom Minecraft Plugin to materialize Weasleys' Wizard Wheezes and potion from Harry Potter universe."
+                "tags": ["Java", "Agile"],
+                "description": [
+                    "Managed project & sprint using Trello following Agile methodology.",
+                    "Developed a custom Minecraft Plugin to materialize Weasleys' Wizard Wheezes and potion from Harry Potter universe."
+                ]
             },
             {
                 "title": "Civadis",
